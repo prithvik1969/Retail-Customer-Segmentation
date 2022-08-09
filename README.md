@@ -1,7 +1,7 @@
-# Customer-Marketing-segmentation-with-Machine-Learning
+# Retail-segmentation-using-Machine-Learning
 Use unsupervised machine learning tools to segment credit card customers
 
-In this project, the objective is to segment a portfolio of credit card users according to usage characteristics. Customer segmentation is then used by marketing department to tailor products and services specific to these customer segments. This project is part of UDEMY Datascience for Business program by Dr. Ryan Ahmed using Google Colab.
+In this project, the objective is to segment a portfolio of credit card users according to usage characteristics. Customer segmentation is then used by marketing department to tailor products and services specific to these customer segments.
 
 # Dataset
 The project uses a dataset of circa 9000 credit card users and their credit card usage pratice.
@@ -35,18 +35,3 @@ Identified customer segments:
 - Sixth Customers cluster (Transactors): Those are customers who pay least amount of interest charges and careful with their money, Cluster with lowest balance ($104) and second lowest cash advance ($303), Percentage of full payment = 24%
 - Seventh customer cluster (one-off): Record-high minimum payments level of nearly 28k$
 - Eighth customer cluster (Low activity): these are customers using the less their card (lowest purchase frequency) and with the lowest purchase amount
-
-Key segment characteristics:
-
-![](asset/segments.jpg)
-
-Looking at the population per segment, clusters "VIP/Prime" and "one-off" are very small and represent some kind of exceptions / outliers. They unlikely constitute potential market segments within the observed population.
-
-Population per segment:
-
-![](asset/population.png)
-
-The last picture shows the dataset projection on two principal component axis after dimensionality reduction towards 2D feature space (from 17 features to 2 features). These two dimensions retain 48% of the total variance of the dataset. The axes represents the direction of maximum variance in the data (eigen vectors).
-
-
-![](asset/pca.png)
